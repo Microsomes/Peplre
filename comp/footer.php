@@ -7,16 +7,15 @@
 					<div class="col-md-5">
 						<div class="footer-widget">
 							<div class="footer-logo">
-								<a href="index.html" class="logo"><img src="./img/logo.png" alt=""></a>
+								<a style="font-size:30px;" href="index.html" class="logo"><?php echo $title ?></a>
 							</div>
-							<ul class="footer-nav">
+							<!-- <ul class="footer-nav">
 								<li><a href="#">Privacy Policy</a></li>
 								<li><a href="#">Advertisement</a></li>
-							</ul>
+							</ul> -->
 							<div class="footer-copyright">
 								<span>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+								Microsomes 2018
 							</div>
 						</div>
 					</div>
@@ -35,12 +34,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 							</div>
 							<div class="col-md-6">
 								<div class="footer-widget">
-									<h3 class="footer-title">Catagories</h3>
+									<h3 class="footer-title">Useful Links</h3>
 									<ul class="footer-links">
-										<li><a href="category.html">Web Design</a></li>
-										<li><a href="category.html">JavaScript</a></li>
-										<li><a href="category.html">Css</a></li>
-										<li><a href="category.html">Jquery</a></li>
+									<li><a href="http://localhost/newsify/?news=1">Recent</a></li>
+							<li><a href="http://localhost/newsify/?news=2">New posts by independent authors</a></li>
+							<li class="cat-1"><a href="http://localhost/newsify/?news=3">Tayyabs Blog</a></li>
+							<li class="cat-2"><a href="http://localhost/newsify/?news=4">Programming</a></li>
+							<li class="cat-3"><a href="http://localhost/newsify/?news=5">Consulting</a></li>
 									</ul>
 								</div>
 							</div>

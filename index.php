@@ -1,7 +1,10 @@
+
 <?php
 error_reporting(E_ERROR);
 
 $title="Peplre";
+
+$coding_image="";
 
 
 
@@ -18,7 +21,7 @@ $type= $_GET["news"];
 		<?php include("comp/nav.php") ?>
 
 	 
-			<div class="container">		
+			<div style="min-height:600px;background:none;" class="container">		
 			<?php
 			if(isset($_GET["news"])){
 				switch($_GET["news"]){
@@ -41,11 +44,15 @@ $type= $_GET["news"];
 				}
  			}else{
 				//show recent news
-				echo "not set";
+				include("comp/activeComp/home.php");
 			}
 			?>
-	
+
+		
 			</div>
+			<?php 
+			include("comp/footer.php")
+			?>
 
 
 		<!-- jQuery Plugins -->
