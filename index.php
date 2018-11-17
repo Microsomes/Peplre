@@ -40,6 +40,12 @@ $type= $_GET["news"];
 					case 5:
 					include("comp/activeComp/consulting.php");
 					break;
+					case 6:
+					include("comp/activeComp/about.php");
+					break;
+					case 7:
+					include("comp/activeComp/contact.php");
+					break;
  					
 				}
  			}else{

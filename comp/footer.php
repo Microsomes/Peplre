@@ -26,9 +26,8 @@
 								<div class="footer-widget">
 									<h3 class="footer-title">About Us</h3>
 									<ul class="footer-links">
-										<li><a href="about.html">About Us</a></li>
-										<li><a href="#">Join Us</a></li>
-										<li><a href="contact.html">Contacts</a></li>
+										<li><a href="http://localhost/newsify/?news=6">About Us</a></li>
+ 										<li><a href="http://localhost/newsify/?news=7">Contacts</a></li>
 									</ul>
 								</div>
 							</div>

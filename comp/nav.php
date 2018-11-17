@@ -13,7 +13,7 @@
 
 						<!-- nav -->
 						<ul class="nav-menu nav navbar-nav">
-							<li><a href="http://localhost/newsify/?news=1">Recent</a></li>
+							<li><a href="http://localhost/newsify/?news=1">Recent News</a></li>
 							<li><a href="http://localhost/newsify/?news=2">New posts by independent authors</a></li>
 							<li class="cat-1"><a href="http://localhost/newsify/?news=3">Tayyabs Blog</a></li>
 							<li class="cat-2"><a href="http://localhost/newsify/?news=4">Programming</a></li>
